@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulatore Quiz Nautica - Lezione 1</title>
+    <title>Simulatore Quiz Nautica - Lezione 8</title>
     <!-- Libreria per leggere i file Excel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     
@@ -235,7 +235,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>Simulatore Quiz Nautica - Lezione 1</h1>
+    <h1>Simulatore Quiz Nautica - Lezione 8</h1>
     
     <!-- 1. SEZIONE GESTIONE ALLIEVI -->
     <div id="section-user" class="section active">
@@ -262,7 +262,7 @@
             <button class="btn btn-secondary" onclick="App.cambiaAllievo()">Cambia Allievo</button>
         </div>
         <div class="file-info">
-            File attivo: <b>lezione1.xlsx</b>
+            File attivo: <b>lezione8.xlsx</b>
         </div>
         <button class="btn" onclick="App.avviaQuizCompleto()">Avvia o Riprendi Quiz Completo</button><br>
         <button class="btn btn-delete" style="font-size:12px; padding:6px 12px;" onclick="App.riavviaDaZero()">🔄 Azzera Progressi e Ripartisci</button><br><br>
@@ -310,9 +310,9 @@
 
 <script>
     // NOME FILE EXCEL PER QUESTA LEZIONE
-    const FILE_EXCEL = "lezione1.xlsx";
+    const FILE_EXCEL = "lezione8.xlsx";
     // NOME COLLEZIONE DEDICATA SU FIREBASE PER NON SOVRASCRIVERE ALTRI QUIZ
-    const FIREBASE_COLLECTION = "nautica_utenti_dati_lez1";
+    const FIREBASE_COLLECTION = "nautica_utenti_dati_lez8";
 
     const App = {
         utenti: [],
